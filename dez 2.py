@@ -8,8 +8,8 @@ class Product:
         return self.price * self.quantity
 
     def display_info(self):
-        print(f"Назва товару: {self.name}")
-        print(f"Ціна за одиницю: {self.price} грн")
-        print(f"Кількість: {self.quantity}")
-        print(f"Загальна вартість: {self.calculate_total_price()} грн")
+        print(f"portals parfums: {self.name}")
+        print(f"250: {self.price} USD")
+        print(f"20: {self.quantity}")
+        print(f"250: {self.calculate_total_price()} USD")
 
