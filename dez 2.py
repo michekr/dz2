@@ -13,3 +13,12 @@ class Product:
         print(f"20: {self.quantity}")
         print(f"250: {self.calculate_total_price()} USD")
 
+
+class Employee:
+    def __init__(self, name, position, salary):
+        self.name = name
+        self.position = position
+        self.salary = salary
+
+    def get_salary_info(self):
+        return f"Заробітня плата {self.name}: {self.salary} грн."
